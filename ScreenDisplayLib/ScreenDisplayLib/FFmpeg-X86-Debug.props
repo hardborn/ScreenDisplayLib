@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>../sdl2/include;../ffmpeg/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../sdl2/include;../ffmpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>../sdl2/lib;../ffmpeg/lib;</AdditionalLibraryDirectories>
