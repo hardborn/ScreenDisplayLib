@@ -30,6 +30,9 @@
     <ClInclude Include="ScreenMedia.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MediaManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ScreenDisplayLib.cpp">
@@ -45,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ScreenMedia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
