@@ -1,5 +1,9 @@
 #pragma once
 
+
+#include <iostream>
+#include <memory>
+
 #include <SDL.h>
 #include <SDL_thread.h>
 
@@ -9,6 +13,6 @@ public:
 	Media();
 	~Media();
 private:
-	SDL_Window* window_;
+	std::shared_ptr<SDL_Window> window_;
 };
 
